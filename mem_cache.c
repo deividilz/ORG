@@ -279,7 +279,7 @@ void *escreve_memoria_cache(memoria_principal *m_principal, memoria_cache  *m_ca
     int encontrado  = 0;                        //VARIÁVEL PARA SABER SE FOI ENCONTRADO
     int LRU         = 0;                        //VARIÁVEL PARA LRU
     int tam_quadro  = 0;                        //VARIÁVEL PARA O TAMANHO DO QUADRO DA MC
-    int bin_dec     = -1;                       //VARIÁVEL PARA VERIFICAR QUAL O VALOR EM DECIMAL
+    int bin_dec     = -1;                       //VARIÁVEL PARA VERIFICAR QUAL O VALOR EM DECIMALL
 
     strcpy(deslocamento_rotulo, "");
 
